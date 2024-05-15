@@ -1,0 +1,181 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #c43296;
+  }
+  
+  .stopwatch {
+    border: solid black 3px;
+    
+    width: 360px;
+    text-align: center;
+    background-color:#4E5179;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .butcont{
+    display: inline-flex;
+  }
+  .time-display {
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    margin: 5px;
+  }
+
+/* CSS */
+.start{
+  align-items: center;
+  background: #f5f5fa;
+  border: 0;
+  border-radius: 8px;
+  /* box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #1d0dca17; */
+  box-sizing: border-box;
+  color: #1f6261;
+  cursor: pointer;
+  display: flex;
+  font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5rem;
+  /* padding: 15px; */
+  position: relative;
+  text-align: left;
+  transition: .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  width: max-content;
+  word-break: normal;
+  word-spacing: normal;
+}
+
+.start:hover {
+  background: #888FC2;
+  /* box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17; */
+}
+
+@media (min-width: 768px) {
+  .start {
+    padding: 24px;
+  }
+}
+.pause{
+  /* align-items: center; */
+  background: #f5f5fa;
+  border: 0;
+  border-radius: 8px;
+  /* box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #1d0dca17; */
+  box-sizing: border-box;
+  color: #2a1f62;
+  cursor: pointer;
+  display: flex;
+  font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5rem;
+  padding: 15px;
+  position: relative;
+  text-align: left;
+  transition: .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  width: max-content;
+  word-break: normal;
+  word-spacing: normal;
+}
+
+.pause:hover {
+  background:#888FC2;
+  /* box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17; */
+}
+
+@media (min-width: 768px) {
+  .pause {
+    padding: 24px;
+  }
+}        
+.reset{
+    /* align-items: center; */
+    background: #f5f5fa;
+    border: 0;
+    border-radius: 8px;
+    /* box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #1d0dca17; */
+    box-sizing: border-box;
+    color: #2a1f62;
+    cursor: pointer;
+    display: flex;
+    font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+    font-size: 1rem;
+    justify-content: center;
+    line-height: 1.5rem;
+    padding: 15px;
+    position: relative;
+    text-align: left;
+    transition: .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+    width: max-content;
+    word-break: normal;
+    word-spacing: normal;
+  }
+  
+  .reset:hover {
+    background:#888FC2;
+    /* box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17; */
+  }
+  
+  @media (min-width: 768px) {
+    .reset {
+      padding: 24px;
+    }
+  }  
+.lap{
+  /* align-items: center; */
+    background: #f5f5fa;
+    border: 0;
+    border-radius: 8px;
+    /* box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #1d0dca17; */
+    box-sizing: border-box;
+    color: #2a1f62;
+    cursor: pointer;
+    display: flex;
+    font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+    font-size: 1rem;
+    justify-content: center;
+    line-height: 1.5rem;
+    padding: 15px;
+    position: relative;
+    text-align: left;
+    transition: .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+    width: max-content;
+    word-break: normal;
+    word-spacing: normal;
+  }
+  
+  .lap:hover {
+    background: #888FC2;
+    /* box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17; */
+  }
+  
+  @media (min-width: 768px) {
+    .lap {
+      padding: 24px;
+    }
+}      
